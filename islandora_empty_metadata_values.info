@@ -1,0 +1,5 @@
+name = "Islandora Empty Metadata Values"
+description = "Injects JavaScript that hides empty elements in the Islandora metadata display."
+version = 7.x-dev
+core = 7.x
+dependencies[] = islandora
