@@ -4,7 +4,7 @@
 
 Simple utility module that hides Islandora metadata elements that are empty or that consist only of puncutation. Works with default Dublin Core metadata displays as well as metadata displays managed by Islandora Solr Metadata.
 
-Note that is module works independently of the "Omit Empty Values" option in Islandora Solr's General Configuration settings.
+Note that this module works independently of the "Omit Empty Values" option in Islandora Solr's General Configuration settings.
 
 ## Requirements
 
@@ -14,7 +14,7 @@ Install as usual, see [this](https://drupal.org/documentation/install/modules-th
 
 ## Configuration
 
-There are no admin settings. All you have to do is enable it.
+There are no admin settings for this module. All you have to do is enable it.
 
 ## Maintainer
 
