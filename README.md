@@ -4,7 +4,7 @@
 
 Simple utility module that hides Islandora metadata elements that are empty or that consist only of puncutation. Works with default Dublin Core metadata displays as well as metadata displays managed by Islandora Solr Metadata.
 
-Note that this module works independently of the "Omit Empty Values" option in Islandora Solr's General Configuration settings. It doesn't omit metadata elements based on any logic determined by the underlying MODS or DC data. Instead, it uses JavaScript to inspect the rendered metadata display and if it finds HTML markup for metadata values that is empty or that contains only punctuation, the JavaScript hides the entire metadata element (including its label), in effect removing the element from the rendered display.
+Note that this module works independently of the "Omit Empty Values" option in Islandora Solr's General Configuration settings. It doesn't omit metadata elements based on any logic determined by the underlying MODS or DC data. Instead, it uses JavaScript to inspect the rendered metadata display and if it finds HTML markup for metadata values that is empty or that contains only punctuation, the JavaScript hides the entire metadata element (including its label). The markup remains in the raw HTML source for the page, but it is invisible to the end user.
 
 ## Requirements
 
