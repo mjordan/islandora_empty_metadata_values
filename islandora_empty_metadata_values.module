@@ -6,8 +6,8 @@
  */
 
 /**
- * Implements hook_islandora_view_object_alter().
+ * Implments hook_init().
  */
-function islandora_empty_metadata_values_islandora_view_object_alter(&$object, &$rendered) {
+function islandora_empty_metadata_values_init() {
   drupal_add_js(drupal_get_path('module', 'islandora_empty_metadata_values') . '/js/hide_empty_metadata_values.js', 'file');
 }
