@@ -1,5 +1,7 @@
 # Islandora Empty Metadata Values
 
+Note: As of Sept. 24, 2016, the functionality of this module is available in [Islandora Metadata Extras](https://github.com/mjordan/islandora_metadata_extras).
+
 ## Introduction
 
 Simple utility module that hides Islandora metadata elements that are empty or that consist only of puncutation. Works with default Dublin Core metadata displays as well as metadata displays managed by Islandora Solr Metadata.
